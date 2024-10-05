@@ -25,6 +25,10 @@ body {
     font-family: "Playwrite DE Grund", cursive;
 }
 
+strong {
+    font-weight: bold;
+}
+
 header {
     width: 100%;
     text-align: center;
