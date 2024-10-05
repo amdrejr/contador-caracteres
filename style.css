@@ -1,0 +1,118 @@
+/* Definir variaveis */
+:root {
+    --color-primary: #f5122d;
+    --color-secondary: #4ECDC4;
+    --color-tertiary: #292F36;
+}
+
+html {
+    font-size: 18px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-tertiary);
+    background-color: #fff;
+    position: relative;
+    background-color: var(--color-primary);
+}
+
+.handwrite {
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2vh 0 8vh 0;
+}
+
+header h1 {
+    font-size: clamp(1.2rem, 6vw, 3rem);
+    font-weight: bold;
+    color: white;
+    /* text-shadow:    .07em -.07em .0 rgb(14, 0, 95),
+                    .14em -.14em .0 rgba(14, 0, 95, .6),
+                    .21em -.21em .0 rgb(14, 0, 95, .3); */
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    font-size: clamp(1rem, 3.5vw, 1.8rem);
+    color: white;
+}
+
+.principal {
+    height: 80vh;
+    color: white;
+}
+
+.principal h3 {
+    font-size: 2.6rem;
+}
+
+.content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.textarea-box textarea {
+    width: clamp(250px, 80vw, 600px);
+    max-width: 800px;
+    height: 350px;
+    font-size: clamp(1rem, 4.5vw, 1.34rem);
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    resize: none;
+    border: 16px solid white;
+    color: var(--color-tertiary);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ESTILIZAR SCROLL TEXTAREA */
+textarea::-webkit-scrollbar {
+    width: 5px !important;
+    background-color: transparent !important;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: var(--color-tertiary) !important; /* Cor da barra de rolagem */
+    border-radius: 10px !important; /* Cantos arredondados */
+}
+
+/* Estilos específicos para Firefox */
+@-moz-document url-prefix() {
+    textarea {
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-tertiary) transparent;
+    }
+}
+
+.resultado p {
+    font-size: 1.3rem;
+}
+
+
+.sobre { 
+    color: white;
+    padding: 0 30px;
+}
+
+.sobre h3 {
+    font-size: 2rem;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}

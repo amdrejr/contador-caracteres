@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres | Contador de Palavras, Letras e Espaços</title>
+
+    <!-- Descrição para SEO -->
+    <meta name="description" content="Contador de Caracteres online, gratuito e LIVRE DE ANÚNCIOS!! Conte palavras, letras e espaços de forma rápida e eficiente. Ferramenta ideal para escritores e desenvolvedores.">
+
+    <!-- Keywords para SEO -->
+    <meta name="keywords" content="contador de caracteres, contar palavras, contar letras, contar espaços, ferramenta online, redatores, SEO, escritores">
+
+    <!-- Open Graph (para compartilhamento em redes sociais) -->
+    <meta property="og:title" content="Contador de Caracteres Online Gratuito" />
+    <meta property="og:description" content="Conte palavras, letras e espaços de forma fácil, rápida e SEM ANÚNCIOS chatos. Use nossa ferramenta online gratuita." />
+    <meta property="og:image" content="url_da_imagem_de_previa.png" />
+    <meta property="og:url" content="https://www.seusite.com.br" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contador de Caracteres Online Gratuito" />
+    <meta name="twitter:description" content="Use nosso contador de caracteres para contar palavras, letras e espaços de maneira eficiente." />
+    <meta name="twitter:image" content="url_da_imagem_de_previa.png" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="handwrite">Contador de Caracteres</h1>
+        <h2>Palavras, letras, espaços..</h2>
+    </header>
+    <section class="principal">
+        <main class="content-box">
+            <div class="textarea-box">
+                <textarea 
+                    name="texto" 
+                    id="texto-entrada" 
+                    cols="30" 
+                    rows="10" 
+                    placeholder="Comece a digitar..."
+                    aria-labelledby="Contador de Caracteres"
+                ></textarea>
+            </div>
+    
+            <div class="resultado">
+                <p>Palavras: <span id="quant-palavras">0</span></p>
+                <p>Letras: <span id="quant-letras">0</span></p>
+                <p>Espaços: <span id="quant-espacos">0</span></p>
+            </div>
+        </main>
+    </section>
+
+    <section class="sobre">
+        <h3>Sobre o Contador de Caracteres</h3>
+        <p>
+            Uma ferramenta simples e eficiente para contar <strong>palavras</strong>, <strong>letras</strong>, e <strong>espaços</strong> em qualquer texto.  Nossa missão é facilitar o processo de contagem de caracteres para escritores, desenvolvedores e qualquer pessoa que precise de uma solução rápida e confiável.
+        </p>
+    
+        <p>
+            Desenvolvemos este site com o objetivo de oferecer uma <strong>ferramenta gratuita e acessível</strong> para todos que trabalham com textos, seja em <strong>redação</strong>, <strong>SEO</strong>, ou <strong>desenvolvimento web</strong>. Ao utilizar nossa ferramenta, você poderá monitorar o número de caracteres e palavras em tempo real, ideal para otimizar o conteúdo de seus textos.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
